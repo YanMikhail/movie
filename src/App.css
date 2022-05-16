@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background: rgb(3, 37, 65);
+  height: 60px;
+}
+.header__nav {
+  height: 100%;
+}
+.nav-wrapper {
+  display: flex;
+  gap: 30px;
+  height: 100%;
+}
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-wrapper a {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+.nav__content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.movie-cards {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 40px 15px;
+}
+
+.movie-card {
+  border-radius: 15px;
+  max-width: 200px;
+  border: 1px solid #e3e3e3;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  position: relative;
+}
+.movie-card__discription {
+  padding: 5%;
+}
+.movie-card__title {
+  overflow-wrap: break-word;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  font-weight: 600;
+}
+.movie-card__release {
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 0.5em;
+}
+.footer {
+  background: rgb(3, 37, 65);
+  height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

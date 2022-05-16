@@ -1,0 +1,9 @@
+.like {
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+  background: #fff;
+}
+.like_img {
+  width: 25px;
+}
